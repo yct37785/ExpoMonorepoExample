@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignore build outputs in all packages and apps
+**/dist/
+**/build/
+**/.expo/
+
+# Ignore typical JS/TS output
+**/node_modules/

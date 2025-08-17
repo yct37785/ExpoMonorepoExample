@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/cool-package" },
+    { "path": "apps/cool-app" }
+  ]
+}
