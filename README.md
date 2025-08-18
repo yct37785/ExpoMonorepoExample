@@ -8,7 +8,7 @@ It demonstrates how to structure an Expo app (`apps/cool-app`) alongside a reusa
 │ └── cool-app/        # Expo app
 ├── packages/
 │ └── cool-package/    # shared TypeScript package
-├── install.bat        # istalls dependencies at root
+├── install.bat        # installs dependencies at root
 ├── build.bat          # builds shared packages
 ```
 
