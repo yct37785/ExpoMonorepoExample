@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import { greeting } from 'cool-package';
+import { SampleInterface, SampleClass, sampleFunction } from 'cool-package/sampleModule';
 
 export default function App() {
   return (
