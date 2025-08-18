@@ -9,8 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "cool-package": "*",
-    "expo-status-bar": "~2.2.3"
+    "cool-package": "*"
   },
   "private": true
 }
