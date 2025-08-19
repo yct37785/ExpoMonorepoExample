@@ -9,7 +9,7 @@ It demonstrates how to structure an Expo app (`apps/cool-app`) alongside a reusa
 ├── packages/
 │ └── cool-package/    # shared TypeScript package
 ├── install.bat        # installs dependencies at root
-├── build.bat          # builds shared packages
+├── build.bat          # compiles packages/cool-package into a JS only package
 ```
 
 ## Setup Instructions
@@ -19,14 +19,8 @@ It demonstrates how to structure an Expo app (`apps/cool-app`) alongside a reusa
 ```
 This runs npm install at the root of the monorepo.
 
-**2. Build shared packages:**
-```bash
-./build.bat
-```
-This compiles `packages/cool-package` so it can be consumed by the Expo app.
-
 ## Running the Expo App
-**1. Navigate to the app folder and run the provided script:**
+**2. Navigate to the app folder and run the provided script:**
 ```bash
 ./run-expo-go.bat
 ```
@@ -45,3 +39,9 @@ Installing at the root ensures proper hoisting and avoids version conflicts.
 
 ## Usage
 The above simply covers the bare basics to get a monorepo with Expo up and running. Do explore the example as needed to build your own packages, apps and configurations such as alias imports.
+
+**Optional: Build shared packages:**
+```bash
+./build.bat
+```
+This compiles `packages/cool-package` into a package with all source transformed into JS only.
